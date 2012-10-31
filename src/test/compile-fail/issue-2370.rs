@@ -1,4 +1,4 @@
-// error-pattern: type cat cannot be dereferenced
+// error-pattern: can only dereference structs with one anonymous field
 struct cat {
     foo: ()
 }
